@@ -20,8 +20,8 @@ export default function Home (){
 
                 <div  style ={{ width: '70%', display: "flex", margin: "30px", alignItems:"center", justifyContent:"flex-start"}}>
                 <Typography sx={{fontSize: "20px", fontWeight: 'bold', color: "#00274C"}}>Your current grade: </Typography>
-                <box style={{backgroundColor: "#d6ecf3",display: "flex", width: "10%", border: "2px solid #00274C", borderRadius: "5px", marginLeft: "5%", justifyContent:"center"}}>
-                <Typography sx={{fontSize: "40px", fontWeight: '400', color: "#00274C"}}> 100% </Typography>
+                <box style={{backgroundColor: "#d6ecf3",display: "flex", border: "2px solid #00274C", borderRadius: "5px", marginLeft: "5%", justifyContent:"center"}}>
+                <Typography sx={{fontSize: "40px", fontWeight: '400', color: "#00274C", padding: "3px"}}> 100% </Typography>
                 </box>
                 </div>
 
