@@ -7,7 +7,6 @@ function App() {
     <>
     <Routes>
       <Route path="/Home" element={<Home/>}/>
-      <Route path="/Learning" element={<LearningComponentSection/>}/>
     </Routes>
     </>
   );
