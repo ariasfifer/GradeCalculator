@@ -11,3 +11,10 @@
     align-items: "center";
     background-color: "#BDD8E6";
 }
+
+.dotted {
+    border: 5px dotted #ff0000;
+    border-style: dashed solid;
+    color: #000000;
+    background-color: #000000;
+}
