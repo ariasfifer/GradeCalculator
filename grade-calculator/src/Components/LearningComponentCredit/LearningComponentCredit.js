@@ -18,7 +18,7 @@ export default function MasterCredit (){
             <Box sx={{padding: "20px", padding: "20px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", justifyItems: "center", gap: "2rem"}}>
 
             <div style={{width: "100%"}}>
-            <Accordion defaultExpanded sx ={{border: "1px solid #00274C"}}>
+            <Accordion sx ={{border: "1px solid #00274C"}}>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1-content"
@@ -27,11 +27,12 @@ export default function MasterCredit (){
                 <Typography sx={{fontSize: "20px", fontWeight: "bold", color: "#00274C", margin: "15px"}}>Homework</Typography>
                 </AccordionSummary>
                 <AccordionDetails sx={{backgroundColor: "#ededed", borderTop: "1px solid #00274C"}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <div style={{display: "flex", alignItems: "center", justifyContent:"space-between"}}>
+                <ChapterSelector/>
+                </div>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx ={{border: "1px solid #00274C"}}>
+            <Accordion sx ={{border: "1px solid #00274C"}}>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel2-content"
@@ -41,18 +42,11 @@ export default function MasterCredit (){
                 </AccordionSummary>
                 <AccordionDetails sx={{backgroundColor: "#ededed", borderTop: "1px solid #00274C"}}>
                 <div style={{display: "flex", alignItems: "center", justifyContent:"space-between"}}>
-                <div>
-                <ChapterSelector />
-                </div>
-                <div style={{display: "flex", justifyContent:"space-between"}}>
-                    <TextField id="outlined-basic" defaultValue="1.1" variant="outlined" size="small"/>
-                    <TextField id="outlined-basic" defaultValue="1.2" variant="outlined" size="small"/>
-                    <TextField id="outlined-basic" defaultValue="1.3" variant="outlined" size="small"/>
-                </div>
+                <ChapterSelector/>
                 </div>
                 </AccordionDetails>
             </Accordion>
-            <Accordion defaultExpanded sx ={{border: "1px solid #00274C"}}>
+            <Accordion sx ={{border: "1px solid #00274C"}}>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel2-content"
@@ -85,7 +79,7 @@ export default function MasterCredit (){
                 </Box>
                 </AccordionDetails>
             </Accordion >
-            <Accordion defaultExpanded sx ={{border: "1px solid #00274C"}}>
+            <Accordion sx ={{border: "1px solid #00274C"}}>
                 <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel3-content"
@@ -116,7 +110,7 @@ export default function MasterCredit (){
                     <TextField id="outlined-basic" defaultValue="100%" variant="outlined" />
                     </div>
                     <div>
-                    <Typography sx={{fontSize: "17px", fontWeight: "600", color: "#00274C"}}>Quiz 5: </Typography>
+                    <Typography sx={{fontSize: "17px", fontWeight: "600", color: "#00274C"}}>Quiz 6: </Typography>
                     <TextField id="outlined-basic" defaultValue="100%" variant="outlined" />
                     </div>
                 </Box>
